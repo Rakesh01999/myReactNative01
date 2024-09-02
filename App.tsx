@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 import {
   View,
@@ -10,9 +10,9 @@ function App() {
   return (
     <SafeAreaView>
       <View>
-        <Text>Hey Rakesh !</Text>
-        <Text>How Are you !</Text>
-        <Text>Hello ! </Text>
+        <Text>Hello . . .!</Text>
+        <Text>Welcome to React-Native</Text>
+        <Text>Learn React-Native here</Text>
       </View>
     </SafeAreaView>
   )
