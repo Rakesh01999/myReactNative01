@@ -1,8 +1,10 @@
 basic app run testing .. .. ..
 
-Basic Commands :
-1.npx react-native run-android
+# Basic Commands :
+```
+1. npx react-native run-android
 
+```
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
