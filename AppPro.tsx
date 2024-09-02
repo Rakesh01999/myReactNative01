@@ -1,9 +1,37 @@
 import React from 'react'
 
-import {} from 'react-native'
+import {
+    View,
+    Text,
+    StyleSheet,
+    useColorScheme
+} from 'react-native'
 
-function AppPro(){
-    
+function AppPro() {
+    const isDarkMode = useColorScheme() == 'dark'
+
+    return (
+        <View style={styles.container}>
+            <Text style={isDarkMode ? styles.whiteText : styles.darkText}>
+                Hello
+            </Text>
+        </View>
+    )
 }
 
-export default AppPro ;
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        alignItems: 'center'
+        // alignItems: 'flex-end'
+        // alignItems: 'flex-start'
+    },
+    whiteText: {
+        color: '#FFFFFF'
+    },
+    darkText: {
+        color: '#000000'
+    }
+})
+
+export default AppPro;
