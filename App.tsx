@@ -8,13 +8,13 @@ import {
 
 function App() {
   return (
-    // <SafeAreaView>
+    <SafeAreaView>
       <View>
-        <Text>Hello World !</Text>
-        <Text>Hello World !</Text>
-        <Text>Hello World !</Text>
+        <Text>Hey Rakesh !</Text>
+        <Text>How Are you !</Text>
+        <Text>Hello ! </Text>
       </View>
-    // </SafeAreaView>
+    </SafeAreaView>
   )
 }
 
