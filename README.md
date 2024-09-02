@@ -1,9 +1,34 @@
 basic app run testing .. .. ..
 
-# Basic Commands :
+## Basic Commands :
 1. To run the project
 ```
 npx react-native run-android
+```
+2. In the "App.tsx" file
+```
+import React from "react"
+
+import {
+  View,
+  Text,
+  SafeAreaView
+} from 'react-native'
+
+function App() {
+  return (
+    <SafeAreaView>
+      <View>
+        <Text>Hey Rakesh !</Text>
+        <Text>How Are you !</Text>
+        <Text>Hello ! </Text>
+      </View>
+    </SafeAreaView>
+  )
+}
+
+export default App;
+
 ```
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
