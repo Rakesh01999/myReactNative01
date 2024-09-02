@@ -1,7 +1,7 @@
 basic app run testing .. .. ..
 
 # Basic Commands :
-1. 
+1. To run the project
 ```
 npx react-native run-android
 ```
